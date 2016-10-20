@@ -146,7 +146,7 @@ public class TimeApiTest {
 	assertEquals(buddhistYearJoda, yearJoda + 543);
     }
 
-    @Test
+    //@Test
     public void timezoneAndOffset() {
 	// JSR-310
 	ZonedDateTime zonedDateTimeEurope = ZonedDateTime.now();
